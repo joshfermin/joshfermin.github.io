@@ -1,13 +1,13 @@
 ---
 layout:     post
 title:      "Hello, World!"
-subtitle:   "A few things about me"
-date:       2015-01-14 12:00:00
+subtitle:   "A few things about me."
+date:       2015-01-14 11:00:00
 author:     "Josh Fermin"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<h2 class="section-heading">Josh, Here!</h2>
+<h2 class="section-heading">Creative Thinking</h2>
 
 <p>Welcome to my first blog post! A little bit about me... I am currently studying computer science at the University of Colorado, Boulder with an emphasis on software engineering. So far I have done a lot of software based projects, but this semester I am going to attempt to dive into more physical computing. I have a couple ideas on what I want to do this semester and I'll keep you updated through this blog! </p>
 
