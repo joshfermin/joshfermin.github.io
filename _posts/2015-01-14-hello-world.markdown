@@ -4,7 +4,7 @@ title:      "Hello, World!"
 subtitle:   "A few things about me."
 date:       2015-01-14 11:00:00
 author:     "Josh Fermin"
-header-img: "img/post-bg-01.jpg"
+header-img: "img/post-bg-07.jpg"
 ---
 
 <h2 class="section-heading">Creative Thinking</h2>

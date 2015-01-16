@@ -4,7 +4,7 @@ title:      "Physical Computing"
 subtitle:   "Day one and my first thoughts."
 date:       2015-01-14 12:00:00
 author:     "Josh Fermin"
-header-img: "img/post-bg-02.jpg"
+header-img: "img/post-bg-09.jpg"
 ---
 
 <h2 class="section-heading">Physical Computing Activity</h2>
