@@ -11,6 +11,31 @@ layout: default
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <hr class="small">
                     <span class="subheading">{{ page.description }}</span>
+                     <ul class="list-inline text-center">
+                    <li>
+                        <a href="https://drive.google.com/file/d/0B3_ZQnd4IN7yRmFuaGs5bWF2UkE/view?usp=sharing" width="1050" height="1500">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/pub/josh-fermin/81/a24/625">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% if site.github_username %}
+                    <li>
+                        <a href="https://github.com/{{ site.github_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
                 </div>
             </div>
         </div>

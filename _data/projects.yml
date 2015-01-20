@@ -1,37 +1,21 @@
 - name: word clock
-  time: Jan 15 +
+  time: Jan 15 - Present
   url: 
   tagline: led word clock controlled by arduino
   tools: Arduino
   description: Currently in progress, github repo not up yet!!!
   github:
-    url: zhued/wordclock
+    url: joshfermin/wordclock
     branch: master
 
-- name: zhued.github.io
-  time: Dec 14 - Jan 15+
-  url: https://zhued.github.io/
+- name: joshfermin.github.io
+  time: Dec 14 - Present
+  url: https://joshfermin.github.io/
   tagline: personal portfolio/blog site
   tools: HTML, SASS, JS, Jekyll, Markdown
   description: Well, er, look around!
   github:
-    url: zhued/zhued.github.io
-    branch: master
-
-- name: EZList
-  time: Aug 14 - Dec 14
-  url:
-  tagline: prototype of an app
-  tools: JustInMind
-  description: |
-    EZList is a mobile app mockup that will allow easier grocery shopping for all
-    users. The basics of this app is to read/input in a shopping list, then based on
-    different settings and preferences, the app will find different routes to stores that 
-    will minimalize the cost of the entire shopping list!
-    This idea was presented at the Atlas Expo at CU Boulder, and received very high remarks
-    and interests!
-  github:
-    url: zhued/EZList
+    url: joshferin/joshfermin.github.io
     branch: master
 
 - name: MDWordcounter
@@ -44,5 +28,5 @@
     ignores all Markdown syntax in a file, as well as references and code blocks, and returns
     a number that corresponds to the number of "true words" there are. 
   github:
-    url: zhued/MDwordcounter
+    url: Zandrr/MDconverter
     branch: master
