@@ -18,15 +18,17 @@
     url: joshferin/joshfermin.github.io
     branch: master
 
-- name: MDWordcounter
+- name: myCUplanner
   time: Nov - Dec 14
-  url:
-  tagline: wordcount for github flavored markdown files
-  tools: PHP
+  url: https://mycuplanner.herokuapp.com/
+  tagline: online planner for Computer Science students
+  tools: Ruby on Rails, PostgreSQL, heroku, Pivotal Tracker
   description: |
-    Developed for showing the wordcount of a Markdown GitHub flavored file. It essentially
-    ignores all Markdown syntax in a file, as well as references and code blocks, and returns
-    a number that corresponds to the number of "true words" there are. 
+    Project for Software Methods Engineering and Tools course, Spring 2014. 
+    A web application that will be deployed to heroku to help computer science
+    students at CU Boulder schedule their upcoming courses. Note: The app deployed 
+    on heroku may not be the same as the source code seen here (i.e. it was not 
+    pushed recently to heroku). 
   github:
-    url: Zandrr/MDconverter
+    url: joshfermin/myCUplanner
     branch: master
