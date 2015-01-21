@@ -39,7 +39,7 @@
   tagline: Freshman Projects
   tools: Arduino, SolidWorks
   description: |
-    Designed a lock-activated power-strip using an Arduino unit and an RF system. Through the efforts 
+    Designed a power strip that would turn off through an rf signal if a lock was turned . Through the efforts 
     of our team we were able to code, design, and implement this system from scratch successfully. 
     We later presented this system at the Engineering Design Expo at the University of Colorado 
     Boulder.
