@@ -1,5 +1,5 @@
 - name: word clock
-  time: Jan 15 - Present
+  time: Jan 2015 - Present
   url: 
   tagline: led word clock controlled by arduino
   tools: Arduino
@@ -9,7 +9,7 @@
     branch: master
 
 - name: joshfermin.github.io
-  time: Dec 14 - Present
+  time: Dec 2014 - Present
   url: https://joshfermin.github.io/
   tagline: personal portfolio/blog site
   tools: HTML, SASS, JS, Jekyll, Markdown
@@ -19,7 +19,7 @@
     branch: master
 
 - name: myCUplanner
-  time: Nov - Dec 14
+  time: March 2014 - May 2014
   url: https://mycuplanner.herokuapp.com/
   tagline: online planner for Computer Science students
   tools: Ruby on Rails, PostgreSQL, heroku, Pivotal Tracker
@@ -32,3 +32,14 @@
   github:
     url: joshfermin/myCUplanner
     branch: master
+
+- name: Lock-activated power-strip
+  time: Spring 2013
+  url: https://www.youtube.com/watch?v=kHH6qjfG9os
+  tagline: Freshman Projects
+  tools: Arduino, SolidWorks
+  description: |
+    Designed a lock-activated power-strip using an Arduino unit and an RF system. Through the efforts 
+    of our team we were able to code, design, and implement this system from scratch successfully. 
+    We later presented this system at the Engineering Design Expo at the University of Colorado 
+    Boulder.
