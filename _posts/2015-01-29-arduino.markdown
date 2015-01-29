@@ -32,7 +32,7 @@ void loop() {
 <p>After I finished that first project and understood everything, I tried to blink two LEDs (alternating) and I got the following result:</p>
 
 <p align="center">
-    <img src="{{ site.baseurl }}/img/blink.gif" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/blog/blink.gif" alt="Post Sample Image">
 </p>
 
 {% highlight c %}
@@ -54,7 +54,7 @@ void loop() {
 }
 {% endhighlight %}
 
-<p>With this done, I started getting input from the user using the Serial keyword. This next piece of code I wrote took input (as an int) from the command line, which then would make the LEDs blink that many times. So if you typed 5, the leds would blink 5 times each</p>
+<p>With this done, I started getting input from the user using the Serial keyword. This next piece of code I wrote took input (as an int) from the command line, which then would make the LEDs blink that many times. So if you typed 5, the leds would blink 5 times each.</p>
 
 {% highlight c %}
 int looper = 0;

@@ -14,5 +14,5 @@ header-img: "img/post-bg-09.jpg"
 <p> So I just started folding the paper from my syllabus and eventually with enough folding and enough tape I was able to fashion my syllabus into some sort of pouch. I then added a necklace of beads I got from my friend and finally through trial and error we were finally able to make the necklace phone holder you see below: </p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/activity1.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/blog/activity1.jpg" alt="Post Sample Image">
 </a>

@@ -12,7 +12,7 @@ header-img: "img/post-bg-07.jpg"
 <p>Welcome to my first blog post! A little bit about me... I am currently studying computer science at the University of Colorado, Boulder with an emphasis on software engineering. So far I have done a lot of software based projects, but this semester I am going to attempt to dive into more physical computing. I have a couple ideas on what I want to do this semester and I'll keep you updated through this blog! </p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/me.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/blog/me.jpg" alt="Post Sample Image">
 </a>
 
 <h2 class="section-heading">What creative tasks am I good at?</h2>
