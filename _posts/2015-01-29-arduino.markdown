@@ -1,0 +1,84 @@
+---
+layout:     post
+title:      "Arduino!"
+subtitle:   "Getting started with Arduino"
+date:       2015-01-29 16:00:00
+author:     "Josh Fermin"
+header-img: "img/post-bg-08.jpg"
+---
+
+<h2 class="section-heading">The <i>"Hello World"</i> of Arduino</h2>
+<p>When I first got my <a href="https://www.sparkfun.com/products/12060">SparkFun Inventor's Kit</a> I couldn't wait to dive right in and start building things. When I got my arduino IDE and drivers all set up I began working on the first circuit. It was a lot like legos and I just started following exactly how it looked in the picture. After the circuit was set up I used the following code: </p>
+
+{% highlight c %}
+// runs this when you power board
+void setup() {
+  pinMode(3, OUTPUT);
+}
+
+// do this forever until out of power
+void loop() {
+  digitalWrite(3, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);             // wait for a second
+  digitalWrite(3, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);             // wait for a second
+}
+{% endhighlight %}
+
+<p>After I entered this code and uploaded to the Arduino Uno I got a LED blinking! I was surprised about how easy it was to do all this, especially if you are just mindlessly plugging things in and copy pasting. So I went over everything again and tried to understand what was going on.</p>
+
+<p>What I did was follow the circuit and see where the power and ground went and saw how the circuit was completed. Using the metaphor of water describing electricity, it was easy to see where the electricity was flowing and where it was being resisted.</p>
+
+<p>After I finished that first project and understood everything, I tried to blink two LEDs (alternating) and I got the following result:</p>
+
+<p align="center">
+    <img src="{{ site.baseurl }}/img/blink.gif" alt="Post Sample Image">
+</p>
+
+{% highlight c %}
+int delaytime = 1000;
+
+void setup() {
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+}
+
+
+void loop() {
+    digitalWrite(3, HIGH);
+    digitalWrite(4, LOW);
+    delay(delaytime); 
+    digitalWrite(3, LOW);
+    digitalWrite(4, HIGH);
+    delay(delaytime);
+}
+{% endhighlight %}
+
+<p>With this done, I started getting input from the user using the Serial keyword. This next piece of code I wrote took input (as an int) from the command line, which then would make the LEDs blink that many times. So if you typed 5, the leds would blink 5 times each</p>
+
+{% highlight c %}
+int looper = 0;
+int delaytime = 100;
+
+void setup() {
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+ if(Serial.available() > 0)
+ {
+   int looper = Serial.parseInt();
+   for(int i = 0; i < looper; i++)
+   {
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    delay(delaytime); 
+    digitalWrite(3, LOW);
+    digitalWrite(4, LOW);
+    delay(delaytime);
+   }
+ }
+}
+{% endhighlight %}
