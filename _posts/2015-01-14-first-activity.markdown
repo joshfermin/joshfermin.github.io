@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: 	true
 title:      "Physical Computing"
 subtitle:   "Day one and my first thoughts."
 date:       2015-01-14 12:00:00
