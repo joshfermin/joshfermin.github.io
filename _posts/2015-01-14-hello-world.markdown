@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: 	true
 title:      "Hello, World!"
 subtitle:   "A few things about me."
 date:       2015-01-14 11:00:00
