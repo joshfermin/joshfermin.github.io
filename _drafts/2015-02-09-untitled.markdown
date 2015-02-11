@@ -1,0 +1,35 @@
+---
+layout:     post
+comments: 	true
+title:      ""
+subtitle:   "Wrestling with physical computing"
+date:       2015-02-09 16:00:00
+author:     "Josh Fermin"
+header-img: "img/post-bg-09.jpg"
+---
+
+<h2 class="section-heading">The Beginnings of my first Arduino project!</h2>
+<p>After spending a good portion of my week working solely on software, I was excited to do some hands on computing with an addressable RGB LED strip that arrived just in time for the weekend. I called up my friend and we decided to meet up the next day to get this bad-boy working. I couldn't wait to see the LEDs blink and change color, because once I got past that, it would open so many doors. Fast forward to the end of the next day where the LED strip was, well, just an expensive piece of plastic. No shiny lights or changing colors. Let me try to explain what happened...</p>
+
+<h3 class="section-heading">Frustrations</h3>
+<p>When I finally got to work on the LED strip I quickly looked up a circuit/breadboarding diagram for the strip and plugged everything exactly where it should go... Or at least I thought. I fired up the arduino and uploaded some sample code to the board. And bam! <b>Nothing happened.</b> Back to the drawing board, where I spent a good 2-3 hours trying to debug what was wrong. What I realized during that time is that I leaned to what I was more comfortable doing. At first, I tried debugging the code, the software side. I understood everything it did and put in some debug statements. Everything was working the way it should have been in terms of the code.</p>
+
+<p>After I deduced that it wasn't a software problem, I looked at the hardware and realized I had a very limited understanding of what was going on. I knew the basics, but even after some time googling the problem, it still was not working. I gave up that day and decided to ask for help from someone who definitely knew more than me.</p>
+
+<h3 class="section-heading">Asking for Help</h3>
+<p> The next day I jumped at the first chance I had to ask about this problem I was having. After spending some time talking to one of the instructors at my university, we finally figured out the problem. I was trying to send data to the LED strip through the Data OUT side instead of the Data IN side. I spent hours on this simple hardware problem that only took a couple of minutes with a mentor to solve.</p>
+
+<h3 class="section-heading">The Finished Product</h3>
+<p>Here's what I was able to accomplish at the end of the day:</p>
+* add images and gif
+
+<h3 class="section-heading">What I learned</h3>
+<p><b>Step outside of your comfort zone.</b></p>
+* software was my comfort zone, had no idea how to debug hardware
+* in the end, debugging hardware allowed me to learn and grow in understanding
+* won't grow if you are always in your comfort zone doing the same things you know how to do.
+
+<p><b>Don't be afraid to ask for help.</b> </p>
+* different expertise/views
+* 
+
