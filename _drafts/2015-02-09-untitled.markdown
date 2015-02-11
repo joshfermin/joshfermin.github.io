@@ -16,7 +16,20 @@ header-img: "img/post-bg-09.jpg"
 
 <p>After I deduced that it wasn't a software problem, I looked at the hardware and realized I had a very limited understanding of what was going on. I knew the basics, but even after some time googling the problem, it still was not working. I gave up that day and decided to ask for help from someone who definitely knew more than me.</p>
 
-<h3 class="section-heading">Asking for help</h3>
+<h3 class="section-heading">Asking for Help</h3>
+<p> The next day I jumped at the first chance I had to ask about this problem I was having. After spending some time talking to one of the instructors at my university, we finally figured out the problem. I was trying to send data to the LED strip through the Data OUT side instead of the Data IN side. I spent hours on this simple hardware problem that only took a couple of minutes with a mentor to solve.</p>
+
+<h3 class="section-heading">The Finished Product</h3>
+<p>Here's what I was able to accomplish at the end of the day:</p>
+* add images and gif
 
 <h3 class="section-heading">What I learned</h3>
-<p><b></b></p>
+<p><b>Step outside of your comfort zone.</b></p>
+* software was my comfort zone, had no idea how to debug hardware
+* in the end, debugging hardware allowed me to learn and grow in understanding
+* won't grow if you are always in your comfort zone doing the same things you know how to do.
+
+<p><b>Don't be afraid to ask for help.</b> </p>
+* different expertise/views
+* 
+
