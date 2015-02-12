@@ -1,11 +1,11 @@
 ---
 layout:     post
 comments: 	true
-title:      ""
+title:      "Frustrations"
 subtitle:   "Wrestling with physical computing"
 date:       2015-02-09 16:00:00
 author:     "Josh Fermin"
-header-img: "img/post-bg-09.jpg"
+header-img: "img/ledstrip.jpg"
 ---
 
 <h2 class="section-heading">The Beginnings of my first Arduino project!</h2>
@@ -25,17 +25,8 @@ header-img: "img/post-bg-09.jpg"
     <img src="{{ site.baseurl }}/img/blog/ledstrip.gif" alt="Post Sample Image">
 </p>
 
-<p align="center">
-    <img src="{{ site.baseurl }}/img/blog/ledstrip.jpg" alt="Post Sample Image">
-</p>
-
 <h3 class="section-heading">What I learned</h3>
-<p><b>Step outside of your comfort zone.</b></p>
-* software was my comfort zone, had no idea how to debug hardware
-* in the end, debugging hardware allowed me to learn and grow in understanding
-* won't grow if you are always in your comfort zone doing the same things you know how to do.
+<p><b>Step outside of your comfort zone.</b> Software is my comfort zone and I tried to stay away from hardware as much as I could. In the end, debugging hardware allowed me to learn and grow in understanding. In the end, you won't grow if you are always in your comfort zone doing the same things you already know how to do.</p>
 
-<p><b>Don't be afraid to ask for help.</b> </p>
-* different expertise/views
-* 
+<p><b>Don't be afraid to ask for help.</b> Asking for help could be one of the hardest steps. I know for myself personally, I try my hardest to figure out a problem before opting to ask someone for help. But over the years I've realized there's nothing to lose from asking for help. My experience with this problem is a prime example. Not only was I able to get the LED strip working in a couple of minutes and understand what was happening, I was given some parts to get it working. It was a win-win situation.</p>
 
