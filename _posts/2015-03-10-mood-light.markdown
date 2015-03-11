@@ -3,7 +3,7 @@ layout:     post
 comments: 	true
 title:      "Mood Light"
 subtitle:   "RGB LED Desk Lighting"
-date:       2015-02-09 16:00:00
+date:       2015-03-10 16:00:00
 author:     "Josh Fermin"
 header-img: "img/blog/rgbledstrip.jpg"
 ---
@@ -17,7 +17,7 @@ src="https://www.youtube.com/v/60GAwAqii0k">
 </p>
 
 <h2 class="section-heading">What is it?</h2>
-<p> What I implemented is a RGB LED Strip that would change color based upon the input of the potentiometer. As the potentiometer is turned, the LED strip will react to the value of the potentiometer based upon if statements. 
+<p> What I implemented is a RGB LED Strip that would change color based upon the input of the potentiometer. As the potentiometer is turned, the LED strip will react to the value of the potentiometer. 
 </p>
 <p>When I first got the LED Strip up and running, I instantly had a sweet idea to use it for some back-lighting for my desk. So for this project I simply used some double sided tape and put one long strip on the upper part of my desk. I slapped the LED Strip on there and bam, instant mood lighting!</p>
 
@@ -27,17 +27,18 @@ src="https://www.youtube.com/v/60GAwAqii0k">
 * RGB LED Strip - Addressable
 * Arduino Uno
 * Double Sided Tape
+* Desk!
 
 <h2 class="section-heading">The Code</h2>
 {% highlight c %}
 #include <Adafruit_NeoPixel.h>
 #include <avr/power.h>
 #define PIN            6
-#define NUMPIXELS      52
+#define NUMPIXELS      52 // change this to how many leds you have in your strip
 
+// initialize strip
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-int delayval = 500; // delay for half a second
 int potPin = A0;
 
 void setup() {
@@ -48,7 +49,8 @@ void setup() {
 }
 
 void loop() {
-  // For a set of NeoPixels the first NeoPixel is 0, second is 1, all the way up to the count of pixels minus one.
+  // For a set of NeoPixels the first NeoPixel is 0, second is 1, 
+  // all the way up to the count of pixels minus one.
   int init = analogRead(potPin);
   int potValue = init / 4;
   setColor(potValue, potValue-255, potValue-127);
@@ -57,7 +59,7 @@ void loop() {
 void setColor(int r, int g, int b) {
     for(int i=0;i<NUMPIXELS;i++){
     // pixels.Color takes RGB values, from 0,0,0 up to 255,255,255
-    pixels.setPixelColor(i, pixels.Color(r,g,b)); // Moderately bright green color.
+    pixels.setPixelColor(i, pixels.Color(r,g,b)); // set pixel color.
     pixels.show(); // This sends the updated pixel color to the hardware.
   }
 }
