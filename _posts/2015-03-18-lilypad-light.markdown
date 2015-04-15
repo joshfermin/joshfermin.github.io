@@ -5,7 +5,7 @@ title:      "Lilypad and Sewing"
 subtitle:   "Learning how to make wearables"
 date:       2015-03-18 16:00:00
 author:     "Josh Fermin"
-header-img: "img/blog/rgbledstrip.jpg"
+header-img: "img/blog/lilypad.jpg"
 ---
 
 <h2 class="section-heading">Learning How To Sew</h2>
