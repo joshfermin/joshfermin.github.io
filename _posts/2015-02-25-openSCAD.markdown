@@ -1,0 +1,14 @@
+---
+layout:     post
+comments: 	true
+title:      "openSCAD"
+subtitle:   "Modeling an Object"
+date:       2015-02-25 16:00:00
+author:     "Josh Fermin"
+header-img: "img/post-bg-09.jpg"
+---
+
+<h2 class="section-heading">openSCAD</h2>
+<p>When I used openSCAD, it was much more complex than TinkerCad just because it didn't have a GUI. Instead you had to write code and then based on that code it would generate a model for you. Given this challenge, it made the learning curve slightly harder than tinkerCAD because instead of dragging and dropping objects you had to actually know what piece of code did what. In the end I was able to figure it out and created this:</p>
+
+<img src="http://i.imgur.com/YV631aA.png">
