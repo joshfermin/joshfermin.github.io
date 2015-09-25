@@ -45,3 +45,5 @@ header-img: "img/post-bg-08.jpg"
 
 </ul>
 </p>
+
+<blockquote>Note: I used reactjs to create the presentation. <a href="https://github.com/joshfermin/mongo_presentation">Here</a> is the github source if you want to see how I created it.</blockquote>
