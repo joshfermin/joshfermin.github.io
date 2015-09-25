@@ -15,6 +15,7 @@ header-img: "img/post-bg-07.jpg"
 <h2 class="section-heading">Pushing the Envelope.</h2>
 <p>After about 16 years of education and having to give those talks ever so often, I can say I've gotten much better, but I still have a long ways to go. And that is why my friends and I have taken it upon ourselves to <b>"do one thing everyday that scares you"</b>. To overcome our anxiety of social interactions and how people think about us we all decided to give each other daily challenges. This blog post is a journey through those challenges.</p>
 
+<p>Thanks <a href="http://alexcampbell.co/">Alex</a> and <a href="http://edwardzhu.me/">Edward</a> for pushing me and doing this together.</p>
 
 
 <h3 class="section-heading">Day 1.</h3>
