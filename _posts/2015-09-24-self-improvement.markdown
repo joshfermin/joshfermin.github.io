@@ -13,9 +13,9 @@ header-img: "img/post-bg-07.jpg"
 <p>For a long time, I've been living in my comfort zone. The only things to ever push me out of it were classes. Since I was really young I have been extremely introverted. I loved keeping to myself and a couple friends were nice, but ask me to go up in front of a class and give a talk or even just talk to some strangers... That was really pushing it. My palms would get really sweaty and my heart would race a million miles an hour and when it was finally my turn to talk I would barely be able to get a sentence out because of how nervous I was.</p>
 
 <h2 class="section-heading">Pushing the Envelope.</h2>
-<p>After about 16 years of education and having to give those talks ever so often, I can say I've gotten much better, but I still have a long ways to go. And that is why my friends and I have taken it upon ourselves to <b>"do one thing everyday that scares you"</b>. To overcome our anxiety of social interactions and how people think about us we all decided to give each other daily challenges. This blog post is a journey through those challenges.</p>
+<p>After about 16 years of education and having to give those talks ever so often, I can say I've gotten much better, but I still have a long ways to go. And that is why my friends and I have taken it upon ourselves to live by the following quote: <blockquote>"Do one thing everyday that scares you."</blockquote> And to do that we decided to give each other daily challenges that will push us out of our comfort zone. This blog post is a journey through those challenges.</p>
 
-<p>Thanks <a href="http://alexcampbell.co/">Alex</a> and <a href="http://edwardzhu.me/">Edward</a> for pushing me and doing this together.</p>
+<p>Many thanks to<a href="http://alexcampbell.co/">Alex</a> and <a href="http://edwardzhu.me/">Edward</a> for pushing me to improve myself and doing this with me.</p>
 
 
 <h3 class="section-heading">Day 1.</h3>
