@@ -9,7 +9,7 @@ header-img: "img/post-bg-08.jpg"
 ---
 
 <h2 class="section-heading">Mongo Sharding and GridFS</h2>
-<p>A couple of days ago I gave a talk in my data engineering class about Mongo and how I was using it in combination with GridFS for my work. If you want to dive into the slides here they are: <a href="http://joshfermin.me/mongo_presentation/#/">Mongo Presentation</a>. </p>
+<p>A couple of days ago I gave a talk in my data engineering class about Mongo and how I was using it in combination with GridFS for my work. If you want to dive into the slides here they are: <a href="http://joshfermin.me/mongo_presentation/#/">Mongo Presentation</a>. To navigate through the presentation, use the arrow keys, or simply press the spacebar to go to the next page.</p>
 
 <p>What I covered in the presentation: 
 <ul>
