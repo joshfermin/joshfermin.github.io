@@ -49,3 +49,8 @@ header-img: "img/post-bg-07.jpg"
     <img src="http://i.imgur.com/8o7tDBc.jpg" width="500" height="600" >
 </a>
 <blockquote>9/24/2015: "Is it okay if we still eat our froyo?" </blockquote>
+
+<h3 class="section-heading">Day 5.</h3>
+<p>Ask a girl to hold something for you, but instead hold their hand.</p>
+<p>This one was a toughie, took me way too long to actually do it, but today I asked a girl to hold something for me but with the intention of holding her hand. In the end I think I scared her off by telling her the "thing" I was carrying was really heavy.</p>
+<blockquote>9/25/2015: "What is it? I'm afraid, is it alive?" </blockquote>
