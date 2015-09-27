@@ -42,10 +42,13 @@ header-img: "img/post-bg-08.jpg"
 		<li><a href="http://docs.mongodb.org/master/MongoDB-sharding-guide.pdf">MongoDB Sharding Guide</a></li>
 		</ul>
 	</li>
-
-
-
 </ul>
 </p>
+
+
+<h2 class="section-heading">What you will be building</h2>
+<a href="{{ site.baseurl }}/img/blog/local_architecture.png">
+    <img src="{{ site.baseurl }}/img/blog/local_architecture.png">
+</a>
 
 <blockquote>Note: I used reactjs to create the presentation. <a href="https://github.com/joshfermin/mongo_presentation">Here</a> is the github source if you want to see how I created it.</blockquote>
