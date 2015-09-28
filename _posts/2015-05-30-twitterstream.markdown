@@ -76,5 +76,6 @@ And that's everything we did over the course of the semester!
 
 <!-- <h2 class="section-heading">The Team</h2> -->
 
+<h2 class="section-heading">Atlas Expo</h2>
 <img src="http://atlas.colorado.edu/wp-content/uploads/2015/04/Expo_800w_web_4-14-15_5.jpg">
 <p>We later presented this at the Atlas Expo along with the other projects from many other classes. Check out more <a href="http://atlas.colorado.edu/atlas-technology-expo-spring-2015/">here</a>!</p>

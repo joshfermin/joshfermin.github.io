@@ -1,8 +1,8 @@
 ---
 layout:     post
 comments: 	true
-title:      "Face your Fears."
-subtitle:   "Do one thing everyday that scares you."
+title:      "Face your Fears"
+subtitle:   "Do one thing everyday that scares you"
 date:       2015-09-24 11:00:00
 author:     "Josh Fermin"
 header-img: "img/post-bg-07.jpg"

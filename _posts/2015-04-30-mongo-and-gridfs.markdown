@@ -2,7 +2,7 @@
 layout:     post
 comments: 	true
 title:      "Mongo Sharding and GridFS"
-subtitle:   "Data Engineering."
+subtitle:   "Data Engineering"
 date:       2015-04-30 16:00:00
 author:     "Josh Fermin"
 header-img: "img/post-bg-08.jpg"
