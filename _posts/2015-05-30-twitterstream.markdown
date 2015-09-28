@@ -8,9 +8,9 @@ author:     "Josh Fermin"
 header-img: "img/earth3.png"
 ---
 
-<h2 class="section-heading">What is Twitterstream?</h2>
+<h2 class="section-heading">What is <a href="https://github.com/CUBigDataClass/tweetstream">Twitterstream</a>?</h2>
 
-<p>Twitterstream is a searchable heatmap that collects and analyzes the sentiment of tweets in the United States. The sentiment analysis takes in account not only the tweet text but the emojis as well. </p>
+<p><a href="https://github.com/CUBigDataClass/tweetstream">Twitterstream</a> is a searchable heatmap that collects and analyzes the sentiment of tweets in the United States. The sentiment analysis takes in account not only the tweet text but the emojis as well. </p>
 
 <a href="{{ site.baseurl }}/img/blog/twittermap.gif">
     <img src="{{ site.baseurl }}/img/blog/twittermap.gif">
