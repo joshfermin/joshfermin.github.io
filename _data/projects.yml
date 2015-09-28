@@ -1,5 +1,16 @@
+- name: Twitterstream
+  time: Jan 2015 - May 2015
+  url: http://joshfermin.me/2015/05/30/twitterstream/
+  tagline: Big Data - Atlas Expo 2015
+  tools: MongoDB, AmazonSQS, Express, Node.js, Angular, D3.js
+  description: Twitterstream is a searchable heatmap that collects and analyzes the sentiment of tweets in the United States.
+  github:
+    url: CUBigDataClass/tweetstream
+    branch: master
+
+
 - name: word clock
-  time: Jan 2015 - Present
+  time: Jan 2015 - May 2015
   url: 
   tagline: led word clock controlled by arduino
   tools: Arduino
