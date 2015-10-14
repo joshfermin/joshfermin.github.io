@@ -1,8 +1,8 @@
 ---
 layout:     post
 comments: 	true
-title:      "Dive Music"
-subtitle:   "Local Hack Day"
+title:      "divemusic"
+subtitle:   "Local Hack Day - Hackathon Project"
 date:       2015-10-10 11:00:00
 author:     "Josh Fermin"
 header-img: "img/img1.jpg"
