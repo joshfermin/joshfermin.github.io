@@ -15,7 +15,7 @@ header-img: "img/img1.jpg"
 <p>So the idea I came up with was <a href="https://github.com/zhued/divemusic">divemusic</a>.</p>
 
 <h2 class="section-heading">divemusic</h2>
-<p>So, what is divemusic? Divemusic is primarily a map that shows you the top song of each country. Our vision was to create a way for people to explore the trending, popular music from everywhere around the world.</p>
+<p>So, what is divemusic? Divemusic is primarily a map that shows you the top songs of each country. Our vision was to create a way for people to explore the trending, popular music from everywhere around the world.</p>
 
 <p>Before we get into the nitty gritty, here is a demo!</p>
 <a href="https://gfycat.com/ConsiderateLankyAvocet" align="center">
