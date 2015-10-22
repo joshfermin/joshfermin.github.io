@@ -1,3 +1,13 @@
+- name: divemusic
+  time: October 2015
+  url: http://joshfermin.me/2015/10/10/dive-music-hackathon/
+  tagline: Local Hack Day - CU Boulder
+  tools: MongoDB, Express, Node.js, Angular, D3.js
+  description: Divemusic is a tool for people to explore the trending, popular music from everywhere around the world.
+  github:
+    url: zhued/divemusic
+    branch: master
+
 - name: Twitterstream
   time: Jan 2015 - May 2015
   url: http://joshfermin.me/2015/05/30/twitterstream/
@@ -7,7 +17,6 @@
   github:
     url: CUBigDataClass/tweetstream
     branch: master
-
 
 - name: word clock
   time: Jan 2015 - May 2015
