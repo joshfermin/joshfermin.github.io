@@ -12,7 +12,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">{{ page.date | date: "%B %-d, %Y. " }}<span class="eta"></span> read.</span>
                 </div>
             </div>
         </div>
@@ -25,7 +25,11 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
+                <article>
+                <p><small><span class="eta"></span> (<span class="words"></span> words)</small></p>
 				{{ content }}
+                </article>
+
 
                 <hr>
 
@@ -66,3 +70,20 @@ layout: default
 </article>
 
 <hr>
+
+<script type="text/javascript">
+$(function() {
+    $('article').readingTime({
+        readingTimeTarget: $(this).find('.eta'),
+        wordCountTarget: $(this).find('.words'),
+        success: function() {
+            console.log('It worked!');
+        },
+        error: function(message) {
+            console.log(message);
+            $(this).find('.eta').remove();
+        }
+    });
+    
+});
+</script>
